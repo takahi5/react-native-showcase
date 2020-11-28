@@ -3,7 +3,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 /* screens */
 import { HomeScreen } from "../screens/HomeScreen";
 import { MapScreen } from "../screens/MapScreen";
-import { RestaurantScreen } from "../screens/RestaurantScreen";
+import { PaintScreen } from "../screens/Paint";
 import { CreateReviewScreen } from "../screens/CreateReviewScreen";
 /* types */
 import { RootStackParamList } from "../types/navigation";
@@ -21,6 +21,7 @@ export const MainStack = () => {
     >
       <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="Map" component={MapScreen} />
+      <Stack.Screen name="Paint" component={PaintScreen} />
     </Stack.Navigator>
   );
 };

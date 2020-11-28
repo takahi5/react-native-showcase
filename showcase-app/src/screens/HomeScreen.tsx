@@ -17,6 +17,7 @@ export const HomeScreen = ({ navigation }: Props) => {
     <SafeAreaView style={styles.container}>
       <ScrollView>
         <Button onPress={() => navigation.navigate("Map")} title="Map" />
+        <Button onPress={() => navigation.navigate("Paint")} title="Paint" />
       </ScrollView>
     </SafeAreaView>
   );

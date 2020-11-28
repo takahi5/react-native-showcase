@@ -5,6 +5,7 @@ import { Shop } from "./shop";
 export type RootStackParamList = {
   Main: undefined;
   Home: undefined;
+  Paint: undefined;
   Map: undefined;
   Restaurant: { restaurant: Restaurant };
   User: undefined;
